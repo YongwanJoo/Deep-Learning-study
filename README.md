@@ -1,1 +1,7 @@
-# Deep-Learning-study
+# Machine Learning?
+### 특징이 추출된 입력을 특정 알고리즘(수식)을 학습해서 결과를 예측하는 방법<br><br>ex)사람의 다양한 정보중 키를 입력해서 몸무게를 예측하는 1차함수 수식 설계 및 학습
+### Linear Regression?
+### 연속된 숫자 중 실제 값과 유사한 값을 예측<br>결과를 가장 잘 예측하는 직선을 찾는 알고리즘<br>y = ax + b 와 같은 1차 함수를 사용<br>학습 데이터에서 *x와 y간의 pattern을 학습해서 최적의 a,b를 찾는것*<br>최적의 learnable parameters를 찾기 위해 예측값 - 실제값인 error를 구하고 오차 제곱의 합 평균이 작을수록 좋은 MSE(Mean Square Error)를 사용해서 평가
+### Method of Least Squares
+### Multiple Regression: 입력하려는 feature가 1개가 아닌경우에는 1차함수를 통해 수식을 나타낼 수 없음<br>Polynomial Regression:1차함수가 아닌 곡선형태를 나타낼 수 없음<br>*따라서 Linear Regression으로는 해결할 수 없는 많은 parameter의 처리를 위해 다른 방법이 필요*
+### MSE 최소화: 모든 learnable parameter에 대해 모든 경의 수의 MSE를 연산해서 탐색<br>Cost가 너무 높음<br>Gradient Descent(경사 하강법): 기울기를 통해 최저점을 찾아나감<br> y = a*W(편의상의 표현) + b의 그래프를 미분해서 극소값을 가지는 leanable parameter 쌍을 찾는 것이 목표<br>이때, 극소값을 찾기 위해 한 번 이동하는 거리 alpha를 learning rate라고 부름
