@@ -20,4 +20,5 @@
 ### Logistic Regression: 1차함수의 모양이 아닌 데이터의 모형과 비슷한 모양을 가지는 함수를 채택
 ### Threshold를 통해 0/1로 분류도 가능<br>*Sigmoid*라는 함수를 사용해서 그래프를 나타냄
 ### Cross entropy loss: 기존 regression과 다르게 해당 class를 맞췄냐에 따른 cost function 사용
-### Cost function이 0에 가까워지면 더 많은 정답을 맞췄음을 의미
+### Cost function이 0에 가까워지면 더 많은 정답을 맞췄음을 의미(아래의 수식 참조)
+![Screenshot-2020-10-15-at-3 13 11-PM](https://github.com/YongwanJoo/Deep-Learning-study/assets/113014598/c81f6fd0-a2e6-4a44-b193-cc0e81f1fa8e)
